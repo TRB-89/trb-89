@@ -1,0 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 380" width="100%" height="380" fill="none">
+  <defs>
+    <linearGradient id="gridBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#333333"/>
+      <stop offset="50%" stop-color="#1a1a1a"/>
+      <stop offset="100%" stop-color="#333333"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="840" height="380" fill="#090909"/>
+  <rect x="0.5" y="0.5" width="839" height="379" fill="none" stroke="url(#gridBorder)" stroke-width="1"/>
+
+  <!-- Top System Header -->
+  <path d="M 12 18 L 18 18 M 18 12 L 18 18" stroke="#888888" stroke-width="1"/>
+  <path d="M 828 18 L 822 18 M 822 12 L 822 18" stroke="#888888" stroke-width="1"/>
+  <text x="28" y="28" font-family="'Consolas', 'Courier New', monospace" font-size="11" fill="#777777" letter-spacing="1.5">SYS // CAPABILITIES MATRIX  —  CLASSIFIED STACK ARCHITECTURE</text>
+  <text x="812" y="28" font-family="'Consolas', 'Courier New', monospace" font-size="11" fill="#555555" text-anchor="end">STATUS: DEPLOYABLE</text>
+  <line x1="28" y1="38" x2="812" y2="38" stroke="#1c1c1c" stroke-width="1"/>
+
+  <!-- Card: LANGUAGES -->
+  <g transform="translate(28, 52)">
+    <rect width="380" height="85" fill="#000000" stroke="#222222" stroke-width="0.8"/>
+    <text x="14" y="20" font-family="'Consolas', 'Courier New', monospace" font-size="10" fill="#666666" letter-spacing="1">[01] // LANGUAGES</text>
+    <g transform="translate(14, 34)">
+      <g transform="translate(0, 0)">
+        <rect width="65.0" height="22" fill="#0d0d0d" stroke="#333333" stroke-width="0.8" rx="0"/>
+        <text x="32.5" y="15" font-family="'Consolas', 'Courier New', monospace" font-size="10" fill="#E5E5E5" text-anchor="middle" letter-spacing="0.8">PYTHON</text>
+      </g>
+      <g transform="translate(73.0, 0)">
+        <rect width="50.0" height="22" fill="#0d0d0d" stroke="#333333" stroke-width="0.8" rx="0"/>
+        <text x="25.0" y="15" font-family="'Consolas', 'Courier New', monospace" font-size="10" fill="#E5E5E5" text-anchor="middle" letter-spacing="0.8">JAVA</text>
+      </g>
+      <g transform="translate(131.0, 0)">
+        <rect width="27.5" height="22" fill="#0d0d0d" stroke="#333333" stroke-width="0.8" rx="0"/>
+        <text x="13.75" y="15" font-family="'Consolas', 'Courier New', monospace" font-size="10" fill="#E5E5E5" text-anchor="middle" letter-spacing="0.8">C</text>
+      </g>
+      <g transform="translate(166.5, 0)">
+        <rect width="95.0" height="22" fill="#0d0d0d" stroke="#333333" stroke-width="0.8" rx="0"/>
+        <text x="47.5" y="15" font-family="'Consolas', 'Courier New', monospace" font-size="10" fill="#E5E5E5" text-anchor="middle" letter-spacing="0.8">JAVASCRIPT</text>
+      </g>
+      <g transform="translate(269.5, 0)">
+        <rect width="42.5" height="22" fill="#0d0d0d" stroke="#333333" stroke-width="0.8" rx="0"/>
+        <text x="21.25" y="15" font-family="'Consolas', 'Courier New', monospace" font-size="10" fill="#E5E5E5" text-anchor="middle" letter-spacing="0.8">SQL</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Card: FRONTEND -->
+  <g transform="translate(432, 52)">
+    <rect width="380" height="85" fill="#000000" stroke="#222222" stroke-width="0.8"/>
+    <text x="14" y="20" font-family="'Consolas', 'Courier New', monospace" font-size="10" fill="#666666" letter-spacing="1">[02] // FRONTEND</text>
+    <g transform="translate(14, 34)">
+      <g transform="translate(0, 0)">
+        <rect width="57.5" height="22" fill="#0d0d0d" stroke="#333333" stroke-width="0.8" rx="0"/>
+        <text x="28.75" y="15" font-family="'Consolas', 'Courier New', monospace" font-size="10" fill="#E5E5E5" text-anchor="middle" letter-spacing="0.8">REACT</text>
+      </g>
+      <g transform="translate(65.5, 0)">
+        <rect width="57.5" height="22" fill="#0d0d0d" stroke="#333333" stroke-width="0.8" rx="0"/>
+        <text x="28.75" y="15" font-family="'Consolas', 'Courier New', monospace" font-size="10" fill="#E5E5E5" text-anchor="middle" letter-spacing="0.8">HTML5</text>
+      </g>
+      <g transform="translate(131.0, 0)">
+        <rect width="50.0" height="22" fill="#0d0d0d" stroke="#333333" stroke-width="0.8" rx="0"/>
+        <text x="25.0" y="15" font-family="'Consolas', 'Courier New', monospace" font-size="10" fill="#E5E5E5" text-anchor="middle" letter-spacing="0.8">CSS3</text>
+      </g>
+      <g transform="translate(189.0, 0)">
+        <rect width="50.0" height="22" fill="#0d0d0d" stroke="#333333" stroke-width="0.8" rx="0"/>
+        <text x="25.0" y="15" font-family="'Consolas', 'Courier New', monospace" font-size="10" fill="#E5E5E5" text-anchor="middle" letter-spacing="0.8">VITE</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Card: BACKEND -->
+  <g transform="translate(28, 150)">
+    <rect width="380" height="85" fill="#000000" stroke="#222222" stroke-width="0.8"/>
+    <text x="14" y="20" font-family="'Consolas', 'Courier New', monospace" font-size="10" fill="#666666" letter-spacing="1">[03] // BACKEND</text>
+    <g transform="translate(14, 34)">
+      <g transform="translate(0, 0)">
+        <rect width="102.5" height="22" fill="#0d0d0d" stroke="#333333" stroke-width="0.8" rx="0"/>
+        <text x="51.25" y="15" font-family="'Consolas', 'Courier New', monospace" font-size="10" fill="#E5E5E5" text-anchor="middle" letter-spacing="0.8">SPRING BOOT</text>
+      </g>
+      <g transform="translate(110.5, 0)">
+        <rect width="72.5" height="22" fill="#0d0d0d" stroke="#333333" stroke-width="0.8" rx="0"/>
+        <text x="36.25" y="15" font-family="'Consolas', 'Courier New', monospace" font-size="10" fill="#E5E5E5" text-anchor="middle" letter-spacing="0.8">NODE.JS</text>
+      </g>
+      <g transform="translate(191.0, 0)">
+        <rect width="87.5" height="22" fill="#0d0d0d" stroke="#333333" stroke-width="0.8" rx="0"/>
+        <text x="43.75" y="15" font-family="'Consolas', 'Courier New', monospace" font-size="10" fill="#E5E5E5" text-anchor="middle" letter-spacing="0.8">REST APIS</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Card: DATABASE & INFRA -->
+  <g transform="translate(432, 150)">
+    <rect width="380" height="85" fill="#000000" stroke="#222222" stroke-width="0.8"/>
+    <text x="14" y="20" font-family="'Consolas', 'Courier New', monospace" font-size="10" fill="#666666" letter-spacing="1">[04] // DATABASE & INFRA</text>
+    <g transform="translate(14, 34)">
+      <g transform="translate(0, 0)">
+        <rect width="57.5" height="22" fill="#0d0d0d" stroke="#333333" stroke-width="0.8" rx="0"/>
+        <text x="28.75" y="15" font-family="'Consolas', 'Courier New', monospace" font-size="10" fill="#E5E5E5" text-anchor="middle" letter-spacing="0.8">MYSQL</text>
+      </g>
+      <g transform="translate(65.5, 0)">
+        <rect width="95.0" height="22" fill="#0d0d0d" stroke="#333333" stroke-width="0.8" rx="0"/>
+        <text x="47.5" y="15" font-family="'Consolas', 'Courier New', monospace" font-size="10" fill="#E5E5E5" text-anchor="middle" letter-spacing="0.8">POSTGRESQL</text>
+      </g>
+      <g transform="translate(168.5, 0)">
+        <rect width="80.0" height="22" fill="#0d0d0d" stroke="#333333" stroke-width="0.8" rx="0"/>
+        <text x="40.0" y="15" font-family="'Consolas', 'Courier New', monospace" font-size="10" fill="#E5E5E5" text-anchor="middle" letter-spacing="0.8">SUPABASE</text>
+      </g>
+      <g transform="translate(256.5, 0)">
+        <rect width="42.5" height="22" fill="#0d0d0d" stroke="#333333" stroke-width="0.8" rx="0"/>
+        <text x="21.25" y="15" font-family="'Consolas', 'Courier New', monospace" font-size="10" fill="#E5E5E5" text-anchor="middle" letter-spacing="0.8">GIT</text>
+      </g>
+      <g transform="translate(307.0, 0)">
+        <rect width="65.0" height="22" fill="#0d0d0d" stroke="#333333" stroke-width="0.8" rx="0"/>
+        <text x="32.5" y="15" font-family="'Consolas', 'Courier New', monospace" font-size="10" fill="#E5E5E5" text-anchor="middle" letter-spacing="0.8">GITHUB</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Card: ARTIFICIAL INTELLIGENCE -->
+  <g transform="translate(28, 248)">
+    <rect width="784" height="105" fill="#000000" stroke="#222222" stroke-width="0.8"/>
+    <text x="14" y="20" font-family="'Consolas', 'Courier New', monospace" font-size="10" fill="#666666" letter-spacing="1">[05] // ARTIFICIAL INTELLIGENCE</text>
+    <g transform="translate(14, 34)">
+      <g transform="translate(0, 0)">
+        <rect width="95.0" height="22" fill="#0d0d0d" stroke="#333333" stroke-width="0.8" rx="0"/>
+        <text x="47.5" y="15" font-family="'Consolas', 'Courier New', monospace" font-size="10" fill="#E5E5E5" text-anchor="middle" letter-spacing="0.8">GEMINI API</text>
+      </g>
+      <g transform="translate(103.0, 0)">
+        <rect width="132.5" height="22" fill="#0d0d0d" stroke="#333333" stroke-width="0.8" rx="0"/>
+        <text x="66.25" y="15" font-family="'Consolas', 'Courier New', monospace" font-size="10" fill="#E5E5E5" text-anchor="middle" letter-spacing="0.8">LLM INTEGRATION</text>
+      </g>
+      <g transform="translate(243.5, 0)">
+        <rect width="162.5" height="22" fill="#0d0d0d" stroke="#333333" stroke-width="0.8" rx="0"/>
+        <text x="81.25" y="15" font-family="'Consolas', 'Courier New', monospace" font-size="10" fill="#E5E5E5" text-anchor="middle" letter-spacing="0.8">AGENT ORCHESTRATION</text>
+      </g>
+      <g transform="translate(414.0, 0)">
+        <rect width="155.0" height="22" fill="#0d0d0d" stroke="#333333" stroke-width="0.8" rx="0"/>
+        <text x="77.5" y="15" font-family="'Consolas', 'Courier New', monospace" font-size="10" fill="#E5E5E5" text-anchor="middle" letter-spacing="0.8">AI APPLICATION DEV</text>
+      </g>
+    </g>
+  </g>
+
+  <line x1="28" y1="360" x2="812" y2="360" stroke="#141414" stroke-width="1"/>
+  <text x="28" y="372" font-family="'Consolas', 'Courier New', monospace" font-size="9" fill="#444444">RUNTIME ENVIRONMENT: LINUX / DARWIN / WINDOWS  —  COMPILER: GCC / OPENJDK / NODE</text>
+  <text x="812" y="372" font-family="'Consolas', 'Courier New', monospace" font-size="9" fill="#444444" text-anchor="end">SYS.AUTH // VERIFIED</text>
+</svg>

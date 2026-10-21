@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 32" width="100%" height="32" fill="none">
+  <defs>
+    <!-- Liquid Chrome Linear Gradient -->
+    <linearGradient id="chromeGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="20%" stop-color="#262626"/>
+      <stop offset="40%" stop-color="#8a8a8a"/>
+      <stop offset="50%" stop-color="#ffffff"/>
+      <stop offset="60%" stop-color="#8a8a8a"/>
+      <stop offset="80%" stop-color="#262626"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Animated Light Sheen Sweep -->
+    <linearGradient id="sheenGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+      <animate attributeName="x1" from="-100%" to="200%" dur="4s" repeatCount="indefinite" />
+      <animate attributeName="x2" from="0%" to="300%" dur="4s" repeatCount="indefinite" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background Base Hairline -->
+  <line x1="40" y1="16" x2="860" y2="16" stroke="url(#chromeGrad)" stroke-width="1.2"/>
+  
+  <!-- Animated Sheen Overlay -->
+  <line x1="40" y1="16" x2="860" y2="16" stroke="url(#sheenGrad)" stroke-width="1.5"/>
+
+  <!-- Brutalist Centerpiece Accent -->
+  <g transform="translate(450, 16)">
+    <!-- Outer Diamond / Spade Rhombus -->
+    <polygon points="0,-9 9,0 0,9 -9,0" fill="#090909" stroke="#C0C0C0" stroke-width="1.2"/>
+    <!-- Inner Solid Chrome Core -->
+    <polygon points="0,-4 4,0 0,4 -4,0" fill="#FFFFFF"/>
+    <!-- Flanking Technical Marks -->
+    <line x1="-22" y1="-3" x2="-22" y2="3" stroke="#888888" stroke-width="1"/>
+    <line x1="22" y1="-3" x2="22" y2="3" stroke="#888888" stroke-width="1"/>
+    <circle cx="-35" cy="0" r="1.5" fill="#444444"/>
+    <circle cx="35" cy="0" r="1.5" fill="#444444"/>
+  </g>
+</svg>

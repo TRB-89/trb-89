@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 180" width="100%" height="180" fill="none">
+  <defs>
+    <linearGradient id="cardBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3a3a3a"/>
+      <stop offset="50%" stop-color="#1f1f1f"/>
+      <stop offset="100%" stop-color="#3a3a3a"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="840" height="180" fill="#090909" rx="0"/>
+  <rect x="0.5" y="0.5" width="839" height="179" fill="none" stroke="url(#cardBorder)" stroke-width="1"/>
+
+  <!-- Brutalist Corner Markers -->
+  <path d="M 12 18 L 18 18 M 18 12 L 18 18" stroke="#888888" stroke-width="1"/>
+  <path d="M 828 18 L 822 18 M 822 12 L 822 18" stroke="#888888" stroke-width="1"/>
+  <path d="M 12 162 L 18 162 M 18 168 L 18 162" stroke="#888888" stroke-width="1"/>
+  <path d="M 828 162 L 822 162 M 822 168 L 822 162" stroke="#888888" stroke-width="1"/>
+
+  <!-- Classification Header -->
+  <text x="32" y="34" font-family="'Consolas', 'Courier New', monospace" font-size="11" fill="#777777" letter-spacing="1.5">SYS // 05  —  SUSTAINABILITY ACTION PLATFORM</text>
+
+  <!-- Status Pill Tag -->
+  <g transform="translate(520, 22)">
+    <rect x="0" y="0" width="115" height="18" fill="#121212" stroke="#444444" stroke-width="0.8"/>
+    <text x="57" y="13" font-family="'Consolas', 'Courier New', monospace" font-size="9" fill="#E5E5E5" text-anchor="middle" letter-spacing="1">[DEPLOYED]</text>
+  </g>
+
+  <!-- Main Title -->
+  <text x="32" y="74" font-family="'Impact', 'Arial Black', sans-serif" font-size="24" fill="#FFFFFF" letter-spacing="2">O N E   P L A N E T</text>
+
+  <!-- Description Lines -->
+  <text x="32" y="104" font-family="'Consolas', 'Courier New', monospace" font-size="12" fill="#B0B0B0">Open platform supporting all 17 UN Sustainable Development Goals via</text>
+  <text x="32" y="122" font-family="'Consolas', 'Courier New', monospace" font-size="12" fill="#888888">distributed problem intake, verification telemetry, and action hubs.</text>
+
+  <!-- Divider Line -->
+  <line x1="32" y1="142" x2="630" y2="142" stroke="#1c1c1c" stroke-width="1"/>
+
+  <!-- Tech Stack -->
+  <text x="32" y="159" font-family="'Consolas', 'Courier New', monospace" font-size="10" fill="#666666" letter-spacing="1">VITE  //  REACT  //  SUPABASE  //  OPEN APIS</text>
+
+  <!-- Right Geometric Artwork -->
+  
+        <!-- Minimal Isometric Globe Sphere -->
+        <g stroke="#444444" stroke-width="1" fill="none">
+          <circle cx="730" cy="95" r="40" stroke="#C0C0C0" stroke-width="1.2"/>
+          <ellipse cx="730" cy="95" rx="40" ry="16" stroke="#666666"/>
+          <ellipse cx="730" cy="95" rx="16" ry="40" stroke="#666666"/>
+          <circle cx="730" cy="95" r="3" fill="#FFFFFF"/>
+        </g>
+        
+
+  <!-- Subtle Link Indicator -->
+  <text x="618" y="159" font-family="'Consolas', 'Courier New', monospace" font-size="10" fill="#AAAAAA" text-anchor="end">VIEW REPO ↗</text>
+</svg>
